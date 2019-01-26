@@ -1,0 +1,25 @@
+h1 {
+    color: black;
+}
+main {
+    border: 2px blue solid;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+.header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: aqua;
+}
+.form {
+    background-color: beige;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.footer {
+    background-color: aqua;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
